@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Login or Signup</title>
+        <link rel="stylesheet" type="text/css" href="./indexstyle.css">
+        <script type="text/javascript" src="sha.js"></script>
+        <script type="text/javascript">
+        function hasher()
+            {
+                var pass1 = document.getElementById("pass").value;
+                var p1 = CryptoJS.SHA1(pass1);
+                document.getElementById("pass").value = p1;
+            }
+        </script>
+    </head>
+    <body>
+
+        <div id="obox">
+
+            <form method="post" action="./redirect.php" id="lform">
+
+                <input type="text"     placeholder="Roll Number" id="user" name="user" maxlength="20">
+                <input type="password" placeholder="Password" id="pass" name="pass" maxlength="20">
+                <input type="submit"  value="Log In"  name="opt"   id="login" onclick="hasher();">
+                <input type="submit"  value="Sign Up" name="opt"   id="signup">
+
+            </form>
+
+        </div>
+
+    </body>
+</html>

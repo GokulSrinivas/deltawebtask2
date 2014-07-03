@@ -1,0 +1,127 @@
+body
+{
+    background-color: #3B5998;
+}
+
+#obox
+{
+    position: fixed;
+
+    width: 400px;
+    height: 400px;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #293E6A;
+    border-radius: 10px;
+
+    background-color: #293E6A;
+    opacity: 0.75;
+}
+
+#user
+{
+    position: absolute;
+
+    width: 300px;
+    height: 50px;
+
+    top: 65px;
+    font-size: 20px;
+
+    margin-left: 50px;
+    margin-right: 50px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #293E6A;
+    border-radius: 5px;
+}
+#user:hover
+{
+    border-color: #B5B5B5;
+}
+#pass
+{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+
+    top:185px;
+    font-size: 20px;
+
+    margin-left: 50px;
+    margin-right: 50px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #293E6A;
+    border-radius: 5px;
+}
+#pass:hover
+{
+    border-color: #B5B5B5;
+}
+
+#login
+{
+    position: absolute;
+
+    width: 120px
+    height: 80px;
+    background-color: #3E5EA1;
+    top: 310px;
+    left: 50px;
+
+    font-size: 20px;
+
+    padding: 10px;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #293E6A;
+    border-radius: 5px;
+
+}
+
+#login:hover
+{
+    border-color: #B5B5B5;
+}
+#signup
+{
+    position: absolute;
+
+    width: 120px
+    height: 80px;
+    background-color: #3E5EA1;
+    top: 310px;
+    right: 50px;
+
+    font-size: 20px;
+
+    padding: 10px;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #293E6A;
+    border-radius: 5px;
+
+}
+
+#signup:hover
+{
+    border-color: #B5B5B5;
+}

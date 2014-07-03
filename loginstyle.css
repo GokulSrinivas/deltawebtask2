@@ -1,0 +1,218 @@
+body
+{
+    background-color: #3B5998;
+}
+h1
+{
+    font-family: serif;
+    font-size: 30px;
+    position:static;
+    top: 20px;
+    display: block;
+    text-align: center;
+    color: #F4AC42;
+    width: 40%;
+}
+#obox
+{
+    position:static;
+
+    opacity: 1;
+    width: 50%;
+    height: 800px;
+    background-color: #293E6A;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+
+}
+
+#fname
+{
+    position: absolute;
+    width: 30%;
+    min-width: 100px;     min-height: 20px;
+
+    left: 35%;
+    right: 35%;
+    top: 100px;
+    font-size: 20px;
+
+}
+#sname
+{
+    position: absolute;
+    width: 30%;
+    min-width: 100px;     min-height: 20px;
+    left: 35%;
+    right: 35%;
+
+    top: 150px;
+    font-size: 20px;
+}
+#user
+{
+    position: absolute;
+    width: 30%;
+    min-width: 100px;     min-height: 20px;
+    left: 35%;
+    right: 35%;
+
+    top: 200px;
+    font-size: 20px;
+}
+#bday
+{
+    position: absolute;
+    width: 30%;
+    min-width: 100px;     min-height: 20px;
+    left: 35%;
+    right: 35%;
+
+    top: 250px;
+    font-size: 20px;
+}
+#email
+{
+    position: absolute;
+    width: 30%;
+    min-width: 100px;     min-height: 20px;
+    left: 35%;
+    right: 35%;
+    top: 300px;
+    font-size: 20px;
+}
+#pass1
+{
+    position: absolute;
+    width: 30%;
+    min-width: 100px;     min-height: 20px;
+    left: 35%;
+    right: 35%;
+    top: 350px;
+    font-size: 20px;
+}
+#pass2
+{
+    position: absolute;
+    width: 30%;
+    min-width: 100px;     min-height: 20px;
+    left: 35%;
+    right: 35%;
+    top: 400px;
+    font-size: 20px;
+}
+#ghub
+{
+    position: absolute;
+    width: 30%;
+    min-width: 100px;     min-height: 20px;
+    left: 35%;
+    right: 35%;
+    top: 450px;
+    font-size: 20px;
+}
+#sex
+{
+    position: absolute;
+    width: 30%;
+    min-width: 100px;     min-height: 20px;
+    left: 35%;
+    right: 35%;
+    top: 500px;
+    font-size: 20px;
+}
+#dept
+{
+    position: absolute;
+    width: 30%;
+    min-width: 100px;     min-height: 20px;
+    left: 35%;
+    right: 35%;
+    top: 550px;
+    font-size: 20px;
+}
+#pic
+{
+    position: absolute;
+    width: 30%;
+    min-width: 100px;     min-height: 20px;
+    left: 35%;
+    right: 35%;
+    top: 600px;
+    font-size: 20px;
+    opacity: 0;
+}
+#dumb
+{
+    position: absolute;
+    width: 30%;
+    min-width: 100px;     min-height: 20px;
+    left: 35%;
+    right: 35%;
+    top: 600px;
+    font-size: 20px;
+}
+#int
+{
+    position: absolute;
+    width: 30%;
+    min-width: 100px;     min-height: 20px;
+    left: 35%;
+    right: 35%;
+    top: 650px;
+    height: 90px;
+    font-size: 12px;
+}
+
+
+#checker
+{
+    position: absolute;
+    text-align: center;
+    width: 20%;
+    min-width: 50px;
+    min-height: 20px;
+    background-color: #3E5EA1;
+    top: 200px;
+
+
+    font-size: 20px;
+    opacity:1;
+    padding: 10px;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #293E6A;
+    border-radius: 5px;
+}
+
+#regb
+{
+    position: relative;
+    text-align: center;
+    width: 20%
+    min-width: 50px;
+    min-height: 20px;
+    background-color: #3E5EA1;
+    top: 660px;
+
+
+    font-size: 20px;
+
+    padding: 10px;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #293E6A;
+    border-radius: 5px;
+
+}
+
+#regb:hover
+{
+    border-color: #B5B5B5;
+}
