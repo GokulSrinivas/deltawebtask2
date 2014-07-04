@@ -8,7 +8,7 @@
     {
     position: absolute;
 
-    width: 120px
+    width: 120px;
     height: 80px;
     background-color: #3E5EA1;
     top: 0px;
